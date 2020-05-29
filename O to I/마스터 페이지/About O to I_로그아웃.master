@@ -1,0 +1,221 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="About O to I_로그아웃.master.cs" Inherits="첫화면_로그아웃" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 200px;
+            height: 150px;
+            text-align: center;
+            position: absolute;
+            top: 335px;
+            left: 1205px;
+            z-index: 1;
+        }
+        .auto-style2 {
+            width: 200px;
+            height: 500px;
+            text-align: center;
+            position: absolute;
+            top: 498px;
+            left: 1205px;
+            z-index: 1;
+        }
+        .auto-style3 {
+            color: #CDA38D;
+        }
+        .auto-style4 {
+            width: 800px;
+            height: auto;
+            position: absolute;
+            top: 335px;
+            left: 392px;
+            z-index: 1;
+        }
+        .auto-style5 {
+            position: absolute;
+            top: 17px;
+            left: 1337px;
+            z-index: 1;
+        }
+        .auto-style6 {
+            position: absolute;
+            top: 18px;
+            left: 1253px;
+            z-index: 1;
+            margin-bottom: 0px;
+        }
+        .auto-style8 {
+            position: absolute;
+            top: 254px;
+            left: 113px;
+            z-index: 1;
+        }
+        .auto-style9 {
+            position: absolute;
+            top: 267px;
+            left: 192px;
+            z-index: 1;
+            bottom: 385px;
+        }
+        .auto-style11 {
+            position: absolute;
+            top: 266px;
+            left: 791px;
+            z-index: 1;
+        }
+        .auto-style12 {
+            position: absolute;
+            top: 268px;
+            left: 1149px;
+            z-index: 1;
+        }
+        .auto-style13 {
+            position: absolute;
+            top: 320px;
+            left: 114px;
+            z-index: 1;
+        }
+        .auto-style10 {
+            position: absolute;
+            top: 276px;
+            left: 522px;
+            z-index: 1;
+        }
+        .auto-style16 {
+            width: 264px;
+            height: 110px;
+            position: absolute;
+            top: 334px;
+            left: 115px;
+            z-index: 1;
+            text-align: center;
+        }
+        .auto-style17 {
+            font-size: small;
+        }
+        .auto-style18 {
+            color: #808080;
+        }
+        .auto-style19 {
+            font-size: small;
+            color: #808080;
+        }
+        .auto-style21 {
+            width: 265px;
+            height: 186px;
+            position: absolute;
+            top: 455px;
+            left: 115px;
+            z-index: 1;
+            text-align: center;
+        }
+        </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <br />
+        <asp:ImageButton ID="ImageButton1" runat="server" Height="25px" ImageUrl="~/IMAGE/로그인 - 버튼.png" CssClass="auto-style6" OnClick="ImageButton1_Click" />
+        <asp:ImageButton ID="ImageButton2" runat="server" Height="25px" ImageUrl="~/IMAGE/회원가입 - 버튼.png" CssClass="auto-style5" OnClick="ImageButton2_Click" />
+        <div class="auto-style16" style="border: medium solid #CDA38D">
+            <span class="auto-style17">
+            <br />
+            <span class="auto-style18">ⓒ Made by Group of 1</span><br class="auto-style18" />
+            </span>
+            <br class="auto-style19" />
+            <span class="auto-style17"><span class="auto-style18">Bae Yu-Jin &amp; Dang Hyeon-A</span><br class="auto-style18" />
+            <span class="auto-style18">Park Ye-Won &amp; Moon Ji-Seok </span></span>
+        </div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:ImageButton ID="ImageButton12" runat="server" Height="200px" ImageUrl="~/IMAGE/O to I - 로고.png" OnClick="ImageButton12_Click1" />
+        <br />
+        <br />
+        <asp:Image ID="Image2" runat="server" ImageUrl="~/IMAGE/선.png" Width="1300px" CssClass="auto-style8" />
+        <br />
+        <asp:ImageButton ID="ImageButton3" runat="server" Height="53px" ImageUrl="~/IMAGE/About O to I - 메뉴.png" CssClass="auto-style9" OnClick="ImageButton3_Click" />
+&nbsp;<asp:ImageButton ID="ImageButton4" runat="server" Height="46px" ImageUrl="~/IMAGE/Diet - 메뉴.png" CssClass="auto-style10" OnClick="ImageButton4_Click" />
+&nbsp;
+        <asp:ImageButton ID="ImageButton5" runat="server" Height="53px" ImageUrl="~/IMAGE/Communnity - 메뉴.png" CssClass="auto-style11" OnClick="ImageButton5_Click1" />
+&nbsp;<asp:ImageButton ID="ImageButton6" runat="server" Height="53px" ImageUrl="~/IMAGE/Customer Service - 메뉴.png" CssClass="auto-style12" OnClick="ImageButton6_Click1" />
+        <br />
+        <asp:Image ID="Image3" runat="server" ImageUrl="~/IMAGE/선.png" Width="1300px" CssClass="auto-style13" />
+        <br />
+        <br />
+        <div class="auto-style1" style="border: medium solid #CDA38D">
+            <br />
+            <br />
+            ID :
+            <asp:TextBox ID="TextBox1" runat="server" Width="139px" ForeColor="#FFCC99"></asp:TextBox>
+            <br />
+            <br />
+            PassWord :
+            <asp:TextBox ID="TextBox2" runat="server" Width="82px" TextMode="Password"></asp:TextBox>
+            <br />
+            <br />
+            <asp:ImageButton ID="ImageButton7" runat="server" Height="25px" ImageUrl="~/IMAGE/로그인 - 버튼.png" OnClick="ImageButton7_Click" />
+&nbsp;<asp:ImageButton ID="ImageButton8" runat="server" Height="25px" ImageUrl="~/IMAGE/회원가입 - 버튼.png" OnClick="ImageButton8_Click" />
+        </div>
+        <br />
+        <div class="auto-style2" style="border: medium solid #CDA38D">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <span class="auto-style3"><strong>회원들만</strong></span><strong><br class="auto-style3" />
+            <br class="auto-style3" />
+            </strong><span class="auto-style3"><strong>이용할 수 있는</strong></span><strong><br class="auto-style3" />
+            <br class="auto-style3" />
+            </strong><span class="auto-style3"><strong>정보란입니다.</strong></span></div>
+        <br />
+        <div class="auto-style4" style="border: medium solid #CDA38D">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            <p>
+                <br />
+            </p>
+            <p>
+                &nbsp;</p>
+            <p>
+            </p>
+        
+        </asp:ContentPlaceHolder>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <div class="auto-style21" style="border-color: #CDA38D; border-style: solid">
+            <asp:ImageButton ID="ImageButton9" runat="server" ImageUrl="~/IMAGE/개발 동기 - 메뉴창.png" Width="250px" OnClick="ImageButton9_Click" />
+            <br />
+            <asp:ImageButton ID="ImageButton10" runat="server" ImageUrl="~/IMAGE/개발진 소개 - 메뉴창.png" Width="250px" OnClick="ImageButton10_Click" />
+            <br />
+            <asp:ImageButton ID="ImageButton11" runat="server" ImageUrl="~/IMAGE/사이트 소개 - 메뉴창.png" Width="250px" OnClick="ImageButton11_Click" />
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<guestbook>
+  <guest nickname="개발진" time="2016-12-05 오후 8:10:20" title="첫 개시!" data="많이 이용해주세요~" />
+  <guest nickname="지터" time="2016-12-05 오후 8:11:12" title="심심하당" data="다이어트 힘듦...!" />
+  <guest nickname="" time="2016-12-05 오후 8:20:12" title="" data="" />
+  <guest nickname="나" time="2016-12-06 오후 9:00:29" title="asdf" data="asdf" />
+  <guest nickname="박찬휘" time="2016-12-06 오후 9:59:59" title="저희보다잘햇네요" data="TT" />
+  <guest nickname="테스트" time="2016-12-07 오전 10:21:40" title="반갑습니다" data="안녕하세요" />
+  <guest nickname="테스트유저" time="2016-12-08 오후 7:46:52" title="sdsasda" data="asdasdasd" />
+</guestbook>
