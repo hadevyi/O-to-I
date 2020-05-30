@@ -61,7 +61,9 @@ C#을 활용한 ASP 프로젝트로, 설계한 내용을 실제 구현하며 ASP
 
 ![database_code](https://user-images.githubusercontent.com/45550607/83281552-383fb900-a213-11ea-8c49-b459fce0392f.png)
 
-- 프로그젝트 실행 화면
+---
+
+### <프로젝트 실행 화면>
 
 - 첫 화면(비회원)
 
