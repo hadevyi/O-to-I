@@ -8,7 +8,7 @@
 </div>
 <br>
 
-## ASP.NET과 MySQL을 활용한 건강관리 웹 사이트
+## ASP.NET과 MySQL을 활용한 건강관리 웹 사이트 🏃🏻‍♂️🏃🏻‍♀️ 
 > '건강'이라는 주제가 각광받으면서 다이어트에 실패하는 사람이 많습니다. 여기서 다이어트는 단순히 숫자상 체중감소가 아닌, 건강을 위해 개인별 체질에 알맞는 운동법과 식이요법으로 성공적인 다이어트를 위해 설계되었습니다.<br>
 > 체지방지수(BMI)를 설정하고 유저마다의 식단 칼로리를 자동으로 계산하는 기능도 추가되었습니다.
 
@@ -33,7 +33,7 @@ ASP 프로젝트로, "건강관리"라는 주제에 맞추어 디자인부터 �
 
 ### 2️⃣ 프로젝트 구성
 
-<div style="text-align:center"><img src = "https://user-images.githubusercontent.com/45550607/83281560-3a097c80-a213-11ea-9a9e-477c6ff38efd.png" width="40%"></div>
+<div align="center"><img src = "https://user-images.githubusercontent.com/45550607/83281560-3a097c80-a213-11ea-9a9e-477c6ff38efd.png" width="40%"></div>
 
 |      대분류      |   카테고리   |  접근  |               세부사항                |
 | :--------------: | :----------: | :----: | :-----------------------------------: |
@@ -53,7 +53,7 @@ ASP 프로젝트로, "건강관리"라는 주제에 맞추어 디자인부터 �
 
 : 각 게시판에서 사용할 기준에 따라 Table 설계
 
-<div style="text-align:center">
+<div align="center">
 
 ![database](https://user-images.githubusercontent.com/45550607/83281551-383fb900-a213-11ea-884d-ce49a098a572.png)
 
@@ -63,7 +63,7 @@ ASP 프로젝트로, "건강관리"라는 주제에 맞추어 디자인부터 �
 - 게시물 작성시 Community 및 Custom에 자동 등록
 - 칼로리 계산시 Food_db에서 호출 및 사용
 
-<div style="text-align:center">
+<div align="center">
 
 ![database_code](https://user-images.githubusercontent.com/45550607/83281552-383fb900-a213-11ea-8c49-b459fce0392f.png)
 
@@ -75,7 +75,7 @@ ASP 프로젝트로, "건강관리"라는 주제에 맞추어 디자인부터 �
 
 - 비회원 첫화면
 
-<div align="right">
+<div align="center">
 
 ![first](https://user-images.githubusercontent.com/45550607/83281556-3970e600-a213-11ea-8044-1093c047994d.png)
 
@@ -83,7 +83,7 @@ ASP 프로젝트로, "건강관리"라는 주제에 맞추어 디자인부터 �
 
 - 회원 첫화면
 
-<div align="right">
+<div align="center">
 
 ![first_user](https://user-images.githubusercontent.com/45550607/83281559-3970e600-a213-11ea-96b3-2fb804b8c475.png)
 
@@ -91,7 +91,7 @@ ASP 프로젝트로, "건강관리"라는 주제에 맞추어 디자인부터 �
 
 - 회원용 Diet (회원만 접근 가능)
 
-<div align="right">
+<div align="center">
 
 ![user_diet](https://user-images.githubusercontent.com/45550607/83281564-3aa21300-a213-11ea-840c-d9b7a64034c8.png)
 
@@ -100,7 +100,7 @@ ASP 프로젝트로, "건강관리"라는 주제에 맞추어 디자인부터 �
 - 관리자 계정 시 회원 리스트
 
 
-<div align="right">
+<div align="center">
 
 ![admin](https://user-images.githubusercontent.com/45550607/83281547-370e8c00-a213-11ea-9fe4-c7c4406c69e3.png)
 
