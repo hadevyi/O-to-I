@@ -35,17 +35,68 @@ ASP 프로젝트로, "건강관리"라는 주제에 맞추어 디자인부터 �
 
 <div align="center"><img src = "https://user-images.githubusercontent.com/45550607/83281560-3a097c80-a213-11ea-9a9e-477c6ff38efd.png" width="40%"></div>
 
-|      대분류      |   카테고리   |  접근  |               세부사항                |
-| :--------------: | :----------: | :----: | :-----------------------------------: |
-|   About O to I   |              | 누구나 |                                       |
-|       Diet       |   식이요법   | 누구나 |        회원/비회원 차별 데이터        |
-|                  |   운동방법   | 누구나 |        회원/비회원 차별 데이터        |
-|                  | 비만도 측정  | 누구나 |        회원/비회원 차별 데이터        |
-|                  | (회원용)Diet |  회원  | 메뉴 자동 칼로리 계산, 신규 등록 가능 |
-|    Community     |    방명록    |  회원  |           짧은 글 등록 가능           |
-|                  |  자유게시판  |  회원  |  제목과 본문을 갖는 긴 글 등록 가능   |
-| Customer Service |              |  회원  |        관리자에게 건의 글 작성        |
-|                  |              | 관리자 |     건의글에 대한 답변 작성 가능      |
+<table style="width:100%;text-align:center;">
+  <tr style="text-align:center;">
+    <th>대분류</th>
+    <th>카테고리</th>
+    <th>접근성</th>
+    <th>세부사항</th>
+  </tr>
+  <tr>
+    <td>About O to I</td>
+    <td></td>
+    <td>누구나</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Diet</td>
+    <td>식이요법</td>
+    <td>누구나</td>
+    <td>회원/비회원 차별 데이터</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>운동방법</td>
+    <td>누구나</td>
+    <td>회원/비회원 차별 데이터</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>비만도 측정</td>
+    <td>누구나</td>
+    <td>회원/비회원 차별 데이터</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>(회원용)Diet</td>
+    <td>회원</td>
+    <td>메뉴 자동 칼로리 계산, 신규 메뉴-칼로리 등록 가능</td>
+  </tr>
+  <tr>
+    <td>Community</td>
+    <td>방명록</td>
+    <td>회원</td>
+    <td>짧은 글 등록 가능</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>자유게시판</td>
+    <td>회원</td>
+    <td>제목과 본문을 갖는 긴 글 등록 가능</td>
+  </tr>
+  <tr>
+    <td>Customer Service</td>
+    <td></td>
+    <td>회원</td>
+    <td>관리자에게 건의 글 작성</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>관리자</td>
+    <td>건의글에 대한 답변 작성 가능</td>
+  </tr>
+</table>
 
 <br>
 
