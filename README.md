@@ -1,83 +1,107 @@
-# O_to_I
+![image](https://user-images.githubusercontent.com/45550607/122635141-2a5e1e00-d11d-11eb-82c1-419bdcccd90c.png)
 
-## Health management site development
 
-<br>
 <div align="right">
 
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) <a href="https://hits.seeyoufarm.com"/><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/eona1301/O_to_I"/></a>
 
 </div>
+<br>
 
-- Usage: C#, ASP.NET, mySQL, pubs Database
-- Development personnel: 4 person
-- Development environment: Visual Studio 2015
-- Project period: 2016.10.26 - 2016.12.06 (42 days in total; about 2 months 2 weeks)
+## ASP.NET과 MySQL을 활용한 건강관리 웹 사이트
+> '건강'이라는 주제가 각광받으면서 다이어트에 실패하는 사람이 많습니다. 여기서 다이어트는 단순히 숫자상 체중감소가 아닌, 건강을 위해 개인별 체질에 알맞는 운동법과 식이요법으로 성공적인 다이어트를 위해 설계되었습니다.<br>
+> 체지방지수(BMI)를 설정하고 유저마다의 식단 칼로리를 자동으로 계산하는 기능도 추가되었습니다.
+
+- 개발스택 : C#, ASP.NET, mySQL, pubs Database
+- 개발인원 : 4인
+- 개발환경 : Visual Studio 2015
+- 개발기간 : 2016.10.26 - 2016.12.06 (총 42일)
+<br>
+<br>
+
+### 1️⃣ 개요
+
+ASP 프로젝트로, "건강관리"라는 주제에 맞추어 디자인부터 사이트 구현까지 팀 내에서 구현하였습니다. 원하는 기능에 따른 DataBase 설계까지 진행했습니다.
+
++ **내 역할**
+  + 프로젝트 팀장
+  + 마스터페이지 구현
+  + 웹 디자인 및 DataBase 설계
+  + 사용자의 BMI 수치에 따라 차별화된 콘텐츠 제공
 
 <br>
 
-## Motive
+### 2️⃣ 프로젝트 구성
 
-As the theme of "health" has recently come into the spotlight, many people fail to lose weight. Here, dieting was defined as physical training for health rather than simply weight loss in numbers, and was designed to successfully proceed with exercise methods and diet suitable for one's physical constitution.
+<div style="text-align:center"><img src = "https://user-images.githubusercontent.com/45550607/83281560-3a097c80-a213-11ea-9a9e-477c6ff38efd.png" width="40%"></div>
 
-It also added the ability to set body fat (BMI) indices and automatically calculate the calories of the subscriber's diet.
-
-<br>
-
-## Introduce
-
-As an ASP project using C#, it is a project to actually implement the designed contents and to use ASP.NET and Database effectively. It is a project designed with the theme of health.
-
-- **My Job** : Project team leader, C# ASP.NET Master Page production and database design, detailed page for members (providing differentiated contents for each user) construction
-
-<br>
-
-## System configuration
-
-<img src = "https://user-images.githubusercontent.com/45550607/83281560-3a097c80-a213-11ea-9a9e-477c6ff38efd.png" width="40%">
-
-|     Section      |           Bulletin Board            | Authority |                      Detail                       |
-| :--------------: | :---------------------------------: | :-------: | :-----------------------------------------------: |
-|   About O to I   |                                     | Everyone  |                                                   |
-|       Diet       |          '식이요법'(diet)           | Everyone  |  Members, non-members have different information  |
-|                  |        '운동방법' (exercise)        | Everyone  |  Members, non-members have different information  |
-|                  | '비만도 측정'<br>(obesity measure)  | Everyone  |  Members, non-members have different information  |
-|                  | '(회원용)Diet'<br>(diet for member) |  Member   | Automatically calculate calories for food you eat |
-|    Community     |       '방명록'<br>guest book        |  Member   |            Short text update available            |
-|                  |      '자유게시판'<br>Free-Post      |  Member   |      Update long text with title and content      |
-| Customer Service |                                     |  Member   |                Can write postings                 |
-|                  |                                     |  Manager  |          Can write postings and answers           |
+|      대분류      |   카테고리   |  접근  |               세부사항                |
+| :--------------: | :----------: | :----: | :-----------------------------------: |
+|   About O to I   |              | 누구나 |                                       |
+|       Diet       |   식이요법   | 누구나 |        회원/비회원 차별 데이터        |
+|                  |   운동방법   | 누구나 |        회원/비회원 차별 데이터        |
+|                  | 비만도 측정  | 누구나 |        회원/비회원 차별 데이터        |
+|                  | (회원용)Diet |  회원  | 메뉴 자동 칼로리 계산, 신규 등록 가능 |
+|    Community     |    방명록    |  회원  |           짧은 글 등록 가능           |
+|                  |  자유게시판  |  회원  |  제목과 본문을 갖는 긴 글 등록 가능   |
+| Customer Service |              |  회원  |        관리자에게 건의 글 작성        |
+|                  |              | 관리자 |     건의글에 대한 답변 작성 가능      |
 
 <br>
 
-## Database Configuration
+### 3️⃣ Database 구성
 
-: Design a table based on the standard to be used in each bulletin board
+: 각 게시판에서 사용할 기준에 따라 Table 설계
+
+<div style="text-align:center">
 
 ![database](https://user-images.githubusercontent.com/45550607/83281551-383fb900-a213-11ea-884d-ce49a098a572.png)
 
-- Automatically register with user_db when signing up as a member
-- Automatically register with Community and Custom when creating a post
-- Called and used by Food_db when calculating calories
+</div>
+
+- 회원 가입시 user_db로 자동 등록
+- 게시물 작성시 Community 및 Custom에 자동 등록
+- 칼로리 계산시 Food_db에서 호출 및 사용
+
+<div style="text-align:center">
 
 ![database_code](https://user-images.githubusercontent.com/45550607/83281552-383fb900-a213-11ea-8c49-b459fce0392f.png)
 
+</div>
+
 <br>
 
-## Project screen
+### 4️⃣ 프로젝트 화면
 
-- First screen (Non-Members)
+- 비회원 첫화면
+
+<div align="right">
 
 ![first](https://user-images.githubusercontent.com/45550607/83281556-3970e600-a213-11ea-8044-1093c047994d.png)
 
-- First screen (Members)
+</div>
+
+- 회원 첫화면
+
+<div align="right">
 
 ![first_user](https://user-images.githubusercontent.com/45550607/83281559-3970e600-a213-11ea-96b3-2fb804b8c475.png)
 
-- Access screen for members (Diet for members)
+</div>
+
+- 회원용 Diet (회원만 접근 가능)
+
+<div align="right">
 
 ![user_diet](https://user-images.githubusercontent.com/45550607/83281564-3aa21300-a213-11ea-840c-d9b7a64034c8.png)
 
-- Administrator account
+</div>
+
+- 관리자 계정 시 회원 리스트
+
+
+<div align="right">
 
 ![admin](https://user-images.githubusercontent.com/45550607/83281547-370e8c00-a213-11ea-9fe4-c7c4406c69e3.png)
+
+</div>
