@@ -19,7 +19,7 @@
 <br>
 <br>
 
-### 1️⃣ 개요
+## 📋 소개
 
 ASP 프로젝트로, "건강관리"라는 주제에 맞추어 디자인부터 사이트 구현까지 팀 내에서 구현하였습니다. 원하는 기능에 따른 DataBase 설계까지 진행했습니다.
 
@@ -29,79 +29,3 @@ ASP 프로젝트로, "건강관리"라는 주제에 맞추어 디자인부터 �
   + 웹 디자인 및 DataBase 설계
   + 사용자의 BMI 수치에 따라 차별화된 콘텐츠 제공
 
-<br>
-
-### 2️⃣ 프로젝트 구성
-
-<div align="center"><img src = "https://user-images.githubusercontent.com/45550607/83281560-3a097c80-a213-11ea-9a9e-477c6ff38efd.png" width="40%"></div>
-
-|      대분류      |   카테고리   |  접근  |               세부사항                |
-| :--------------: | :----------: | :----: | :-----------------------------------: |
-|   About O to I   |              | 누구나 |                                       |
-|       Diet       |   식이요법   | 누구나 |        회원/비회원 차별 데이터        |
-|                  |   운동방법   | 누구나 |        회원/비회원 차별 데이터        |
-|                  | 비만도 측정  | 누구나 |        회원/비회원 차별 데이터        |
-|                  | (회원용)Diet |  회원  | 메뉴 자동 칼로리 계산, 신규 메뉴-칼로리 등록 가능 |
-|    Community     |    방명록    |  회원  |           짧은 글 등록 가능           |
-|                  |  자유게시판  |  회원  |  제목과 본문을 갖는 긴 글 등록 가능   |
-| Customer Service |              |  회원  |        관리자에게 건의 글 작성        |
-|                  |              | 관리자 |     건의글에 대한 답변 작성 가능      |
-
-<br>
-
-### 3️⃣ Database 구성
-
-: 각 게시판에서 사용할 기준에 따라 Table 설계
-
-<div align="center">
-
-![database](https://user-images.githubusercontent.com/45550607/83281551-383fb900-a213-11ea-884d-ce49a098a572.png)
-
-</div>
-
-- 회원 가입시 user_db로 자동 등록
-- 게시물 작성시 Community 및 Custom에 자동 등록
-- 칼로리 계산시 Food_db에서 호출 및 사용
-
-<div align="center">
-
-![database_code](https://user-images.githubusercontent.com/45550607/83281552-383fb900-a213-11ea-8c49-b459fce0392f.png)
-
-</div>
-
-<br>
-
-### 4️⃣ 프로젝트 화면
-
-- 비회원 첫화면
-
-<div align="center">
-
-![first](https://user-images.githubusercontent.com/45550607/83281556-3970e600-a213-11ea-8044-1093c047994d.png)
-
-</div>
-
-- 회원 첫화면
-
-<div align="center">
-
-![first_user](https://user-images.githubusercontent.com/45550607/83281559-3970e600-a213-11ea-96b3-2fb804b8c475.png)
-
-</div>
-
-- 회원용 Diet (회원만 접근 가능)
-
-<div align="center">
-
-![user_diet](https://user-images.githubusercontent.com/45550607/83281564-3aa21300-a213-11ea-840c-d9b7a64034c8.png)
-
-</div>
-
-- 관리자 계정 시 회원 리스트
-
-
-<div align="center">
-
-![admin](https://user-images.githubusercontent.com/45550607/83281547-370e8c00-a213-11ea-9fe4-c7c4406c69e3.png)
-
-</div>
